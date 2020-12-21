@@ -14,12 +14,16 @@
 var btnTranslate = document.querySelector("#btn-translate");
 // console.log(btnTranslate)
 var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
 
-console.log(txtInput)
+// outputDiv.innerText = ("Hello Akshay");
+
+// console.log(outputDiv);
 
 function clickHandler() {
-        console.log("Clicked!!");
-        console.log("input", txtInput.value);
+        // console.log("Clicked!!");
+        // console.log("input", txtInput.value);
+        outputDiv.innerText = "sadas " + txtInput.value;
     };
 
 btnTranslate.addEventListener("click", 
